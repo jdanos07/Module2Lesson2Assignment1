@@ -8,9 +8,7 @@
 print("Enter year to determine if it is a leap year:")
 year = int(input())
 
-if year%4 == 0 and year%400 == 0:
-    print("It's a leap year")
-elif year%4 == 0:
+if (year%400 == 0 and year%4 == 0):
     print("It's a leap year")
 else:
-    print("it's another year, but not a leap year")
+    print("It's another year, but not a leap year")
